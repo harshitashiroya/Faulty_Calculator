@@ -29,7 +29,9 @@ elif op=="*":
 elif op=="/":
     ans=num1/num2
     print(ans)
-
+elif op=="%":
+    ans=num1%num2
+    print(ans)
 else:
     print("Error! please check your input")
 
